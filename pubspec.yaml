@@ -1,13 +1,13 @@
 name: emvqrjson
 description: read or write emvqrcode
-version: 1.0.0
+version: 1.1.0
 homepage: https://github.com/chittaphonevansyli/emvqrcodejson.git
 
 environment:
   sdk: ">=2.17.6 <3.0.0"
 
-# dependencies:
-#   path: ^1.8.0
+dependencies:
+  crclib: ^3.0.0
 
 dev_dependencies:
   lints: ^2.0.0
